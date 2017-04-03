@@ -20,3 +20,5 @@ import {TrumbowygModule} from "ng2-lazy-trumbowyg";
   bootstrap: [AppComponent]
 })
 export class AppModule { }
+
+

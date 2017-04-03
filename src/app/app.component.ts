@@ -22,7 +22,6 @@ import {Subject} from "rxjs";
 
   `,
   changeDetection: ChangeDetectionStrategy.OnPush
-
 })
 export class AppComponent {
   private content: string;
