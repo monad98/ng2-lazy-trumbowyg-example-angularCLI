@@ -24,11 +24,10 @@ import {Subject} from "rxjs";
   changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent {
-  private content: string;
-  private showPreview: boolean = false;
-  private initialContentOne: string = `<h2>This is an initial title One.</h2><p>This is an initial content.</p><p><img src="https://angular.io/resources/images/logos/standard/shield-large.png" alt=""><br></p><p><br></p>`
-  private initialContentTwo: string = `<h2>This is an initial title Two.</h2><p>This is an initial content.</p><p><img src="https://github.com/Alex-D/Trumbowyg/raw/develop/banner.png" alt=""><br></p><p><br></p>`
-  private contentOne: string;
-  private contentTwo: string;
+  public showPreview: boolean = false;
+  public initialContentOne: string = `<h2>This is an initial title One.</h2><p>This is an initial content.</p><p><img src="https://angular.io/resources/images/logos/standard/shield-large.png" alt=""><br></p><p><br></p>`
+  public initialContentTwo: string = `<h2>This is an initial title Two.</h2><p>This is an initial content.</p><p><img src="https://github.com/Alex-D/Trumbowyg/raw/develop/banner.png" alt=""><br></p><p><br></p>`
+  public contentOne: string;
+  public contentTwo: string;
   update$: Subject<any> = new Subject();
 }
